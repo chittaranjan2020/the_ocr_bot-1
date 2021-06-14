@@ -1,0 +1,21 @@
+{
+    "name": "Plant Identifier Bot",
+    "description": "Telegram bot for identifying plant",
+    "author": "Amit",
+    "keywords": [
+        "python",
+        "the_ocr_bot",
+    ],
+    "repository": "https://github.com/chittaranjan2020/the_ocr_bot",
+    "env":{
+        "bot_token":{
+            "description":"Telegram bot token",
+            "required":"True"
+        },
+        "api_key":{
+            "description":"Api key from plantnet.org",
+            "required":"True"
+        }
+    }
+
+}
